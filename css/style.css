@@ -1,0 +1,123 @@
+body {
+  font-family: "Chakra Petch", "Arial", sans-serif;
+}
+
+.resume {
+  background-color: #0057AD;
+  color: #FBDA0C;
+}
+
+#resumelink:hover{
+  background-color: #0057AD;
+  color: #FBDA0C;
+}
+
+.like {
+  background-color: #b3ecec;
+  color: black;
+}
+
+#likelink:hover{
+  background-color: #b3ecec;
+  color: black;
+}
+
+.dislike {
+  background-color: black;
+  color: white;
+}
+
+#dislikelink:hover{
+  background-color: black;
+  color: white;
+}
+
+nav{
+  text-align: center;
+}
+
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  float: left;
+  margin: 1em;
+  width: 20rem;
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1em;
+  border: 0.1em solid;
+  border-radius: 3em
+}
+
+.indexsect {
+  margin: 1.5em;
+  border-left: double;
+  border-right: double;
+  border-top: ridge;
+  border-bottom: ridge;
+  border-color: #fada0f;
+  border-width: 2em;
+  border-radius: 2em;
+  padding: 1em;
+}
+
+.likesect {
+  margin: 1.5em;
+  border-style: dashed;
+  border-color: #FBDA0C green;
+  border-width: 2em;
+  padding: 1em;
+}
+
+.dislikesect {
+  margin: 1.5em;
+  border-left: groove;
+  border-right: ridge;
+  border-top: groove;
+  border-bottom: ridge;
+  border-color: #ffdc00;
+  border-width: 2em;
+  padding: 1em;
+}
+
+section h1 {
+  font-size: 5em;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+h2 {
+  font-size: 2.5em;
+  text-align: left;
+  font-style: italic;
+  position: relative;
+}
+
+p {
+  font-size: 1em;
+  text-align: left;
+  position: relative;
+}
+
+ul {
+  font-size: 1.5em;
+  text-align: left;
+  position: relative;
+}
+
+img {
+  width: 49%;
+  height: auto;
+  position: relative;
+}
