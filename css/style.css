@@ -121,3 +121,7 @@ img {
   height: auto;
   position: relative;
 }
+
+#map {
+  height: 100%;
+}
