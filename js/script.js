@@ -9,7 +9,4 @@ function initMap() {
 		title: "dont click",
 		gmpClickable: true
 	});
-	marker.addListener("click", ({ jumpscare(), { lat: 64.073082, lng: -141.937393 } }) => {
-  const { target } = jumpscare();
-	}
 }
