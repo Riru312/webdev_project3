@@ -11,6 +11,7 @@ function initMap() {
 	});
 	marker.addListener("click", ({ jumpscare(), { lat: 64.073082, lng: -141.937393 } }) => {
   const { target } = jumpscare();
+	}
 }
 function jumpscare() {
 	const bounds = new google.maps.LatLngBounds(
