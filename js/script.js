@@ -21,4 +21,33 @@ function initMap() {
     imageBounds,
   );
   chicken.setMap(map);
+	
+	const flightPlanCoordinates1 = [
+    { lat: (64.073082 + 0.03), lng: (-141.937393 + 0.06)},
+    { lat: (64.073082 + 0.03), lng: (-141.937393 + 0.03)},
+		{ lat: (64.073082 + 0.06), lng: (-141.937393 + 0.03)},
+  ];
+  const flightPath1 = new google.maps.Polyline({
+    path: flightPlanCoordinates1,
+    geodesic: true,
+    strokeColor: "#FF0000",
+    strokeOpacity: 1.0,
+    strokeWeight: 3,
+  });
+
+  flightPath1.setMap(map);
+	
+	const flightPlanCoordinates2 = [
+    { lat: (64.073082 + 0.03), lng: (-141.937393 + 0.03)},
+		{ lat: (64.073082 + 0.09), lng: (-141.937393 + 0.09)},
+  ];
+  const flightPath2 = new google.maps.Polyline({
+    path: flightPlanCoordinates2,
+    geodesic: true,
+    strokeColor: "#FF0000",
+    strokeOpacity: 1.0,
+    strokeWeight: 3,
+  });
+
+  flightPath2.setMap(map);
 }
