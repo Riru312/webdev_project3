@@ -10,8 +10,8 @@ function initMap() {
 	});
 
 	const imageBounds = {
-    north: (64.073082),
-    south: (64.073082 - 0.20),
+    north: (64.073082 - 0.005),
+    south: (64.073082 - 0.205),
     east: (-141.937393 + 0.2),
     west: (-141.937393 - 0.2),
   };
@@ -24,7 +24,7 @@ function initMap() {
 	
 	const flightPlanCoordinates1 = [
     { lat: (64.073082 + 0.01), lng: (-141.937393 + 0.08)},
-    { lat: (64.073082 + 0.01), lng: (-141.937393 + 0.04)},
+    { lat: (64.073082 + 0.005), lng: (-141.937393 + 0.04)},
 		{ lat: (64.073082 + 0.02), lng: (-141.937393 + 0.02)},
   ];
   const flightPath1 = new google.maps.Polyline({
@@ -38,7 +38,7 @@ function initMap() {
   flightPath1.setMap(map);
 	
 	const flightPlanCoordinates2 = [
-    { lat: (64.073082 + 0.01), lng: (-141.937393 + 0.04)},
+    { lat: (64.073082 + 0.005), lng: (-141.937393 + 0.04)},
 		{ lat: (64.073082 + 0.07), lng: (-141.937393 + 0.13)},
   ];
   const flightPath2 = new google.maps.Polyline({
