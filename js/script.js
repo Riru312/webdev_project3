@@ -17,7 +17,7 @@ function initMap() {
   };
 
   var chicken = new google.maps.GroundOverlay(
-    "images/jumpscare.jpeg",
+    "images/jumpscare.jpg",
     imageBounds,
   );
   chicken.setMap(map);
