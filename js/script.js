@@ -23,8 +23,8 @@ function initMap() {
   chicken.setMap(map);
 	
 	const flightPlanCoordinates1 = [
-    { lat: (64.073082 + 0.01), lng: (-141.937393 + 0.02)},
-    { lat: (64.073082 + 0.01), lng: (-141.937393 + 0.01)},
+    { lat: (64.073082 + 0.01), lng: (-141.937393 + 0.08)},
+    { lat: (64.073082 + 0.01), lng: (-141.937393 + 0.04)},
 		{ lat: (64.073082 + 0.03), lng: (-141.937393 + 0.01)},
   ];
   const flightPath1 = new google.maps.Polyline({
@@ -38,8 +38,8 @@ function initMap() {
   flightPath1.setMap(map);
 	
 	const flightPlanCoordinates2 = [
-    { lat: (64.073082 + 0.01), lng: (-141.937393 + 0.01)},
-		{ lat: (64.073082 + 0.07), lng: (-141.937393 + 0.09)},
+    { lat: (64.073082 + 0.01), lng: (-141.937393 + 0.04)},
+		{ lat: (64.073082 + 0.07), lng: (-141.937393 + 0.13)},
   ];
   const flightPath2 = new google.maps.Polyline({
     path: flightPlanCoordinates2,
