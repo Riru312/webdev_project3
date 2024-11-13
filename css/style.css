@@ -122,6 +122,10 @@ img {
   position: relative;
 }
 
+div {
+	text-align: center;
+}
+
 #map {
   height: 35rem;
 	width: 50rem;
