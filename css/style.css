@@ -126,4 +126,6 @@ img {
   height: 35rem;
 	width: 50rem;
 	display: inline-block;
+	border: 3em dashed;
+  border-radius: 2em;
 }
