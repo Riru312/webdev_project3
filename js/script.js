@@ -25,7 +25,7 @@ function initMap() {
 	const flightPlanCoordinates1 = [
     { lat: (64.073082 + 0.01), lng: (-141.937393 + 0.08)},
     { lat: (64.073082 + 0.01), lng: (-141.937393 + 0.04)},
-		{ lat: (64.073082 + 0.03), lng: (-141.937393 + 0.01)},
+		{ lat: (64.073082 + 0.02), lng: (-141.937393 + 0.02)},
   ];
   const flightPath1 = new google.maps.Polyline({
     path: flightPlanCoordinates1,
