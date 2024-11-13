@@ -10,10 +10,10 @@ function initMap() {
 	});
 
 	const imageBounds = {
-    north: (64.073082 + 0.1),
-    south: (64.073082 - 0.1),
-    east: (-141.937393 + 0.1),
-    west: (-141.937393 - 0.1),
+    north: (64.073082 - 0.05),
+    south: (64.073082 - 0.25),
+    east: (-141.937393 + 0.2),
+    west: (-141.937393 - 0.2),
   };
 
   var chicken = new google.maps.GroundOverlay(
