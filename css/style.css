@@ -125,4 +125,5 @@ img {
 #map {
   height: 35rem;
 	width: 50rem;
+	display: inline-block;
 }
