@@ -10,8 +10,8 @@ function initMap() {
 	});
 
 	const imageBounds = {
-    north: (64.073082 - 0.05),
-    south: (64.073082 - 0.25),
+    north: (64.073082),
+    south: (64.073082 - 0.20),
     east: (-141.937393 + 0.2),
     west: (-141.937393 - 0.2),
   };
