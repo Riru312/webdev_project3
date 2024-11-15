@@ -70,7 +70,10 @@ function displaySlide(n) {
         document.getElementsByClassName("slide");
     let totaldots =
         document.getElementsByClassName("footerdot");
- 
+				
+		totalslides[1].style.display = "block";
+    totaldots[1].className += " active";
+		
     if (n > totalslides.length) {
         slideIndex = 1;
     }
