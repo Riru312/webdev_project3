@@ -138,84 +138,85 @@ div {
   border-radius: 2em;
 }
 
-div img {
-    width: 100%;
-}
- 
-.height {
-    height: 10px;
-}
- 
-/* Image-container design */
-.image-container {
-    max-width: 800px;
+.futurico-theme.slider-wrapper {
     position: relative;
-    margin: auto;
+    width: 290px;
+    height: 170px;
+    margin: 0;
+    padding: 5px;
+ 
+    background: #141517;
+ 
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
  
-.next {
-    right: 0;
+.futurico-theme .nivoSlider {
+    position: relative;
+    width: 290px;
+    height: 170px;
 }
  
-/* Next and previous icon design */
-.previous,
-.next {
-    cursor: pointer;
+.futurico-theme .nivoSlider img {
+    display: none;
     position: absolute;
-    top: 50%;
-    padding: 10px;
-    margin-top: -25px;
+    width: 290px;
+    height: 170px;
+    top: 0;
+    left: 0;
 }
- 
-/* caption decorate */
-.captionText {
-    color: #000000;
-    font-size: 14px;
+
+.futurico-theme .nivo-controlNav {
     position: absolute;
-    padding: 12px 12px;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
+    bottom: -30px;
+    left: 105px;
+}
+
+.futurico-theme .nivo-controlNav a {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    text-indent: -9999px;
+ 
+    background: #141517;
+ 
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+ 
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0, .5), 0px 1px 1px rgba(255,255,255, .05);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0, .5), 0px 1px 1px rgba(255,255,255, .05);
+    box-shadow: inset 0px 1px 1px rgba(0,0,0, .5), 0px 1px 1px rgba(255,255,255, .05);
+}
+
+.futurico-theme .nivo-controlNav a.active,
+.futurico-theme .nivo-caption span {
+    background: #a5cd4e;
+    background: -moz-linear-gradient(top,  #a5cd4e 0%, #6b8f1a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a5cd4e), color-stop(100%,#6b8f1a));
+    background: -webkit-linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%);
+    background: -o-linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%);
+    background: -ms-linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%);
+    background: linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%);
+ 
+    -webkit-box-shadow: inset 0px 1px 1px rgba(255,255,255, .4), 0px 1px 1px rgba(0,0,0, .3);
+    -moz-box-shadow: inset 0px 1px 1px rgba(255,255,255, .4), 0px 1px 1px rgba(0,0,0, .3);
+    box-shadow: inset 0px 1px 1px rgba(255,255,255, .4), 0px 1px 1px rgba(0,0,0, .3);
+}
+
+.futurico-theme .nivo-directionNav a {
+    display: block;
+    top: 60px;
+ 
+    font-family: 'Consolas', sans-serif;
+    font-size: 40px;
+    color: #141517;
+    text-shadow: 0px 1px 1px rgba(255,255,255, .05);
 }
  
-/* Slider image number */
-.slideNumber {
-    background-color: #5574C5;
-    color: white;
-    border-radius: 25px;
-    right: 0;
-    opacity: .5;
-    margin: 5px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 24px;
-    position: absolute;
-}
+.futurico-theme a.nivo-prevNav { left: -40px; }
  
-.fa {
-    font-size: 32px;
-}
- 
-.fa:hover {
-    transform: rotate(360deg);
-    transition: 1s;
-    color: white;
-}
- 
-.footerdot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbbbbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.5s ease;
-}
- 
-.active,
-.footerdot:hover {
-    background-color: black;
-}
+.futurico-theme a.nivo-nextNav { right: -40px; }
