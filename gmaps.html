@@ -3,32 +3,32 @@
   <head>
     <title>Google Maps API</title>
     <meta charset="utf-8">
-		<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-		<script src="js/script.js"></script>
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
   </head>
-  <body>
-	  <section class="gmaps">
+  <body id="chickenapi">
+    <section class="gmaps">
       <header>
         <nav>
         <ul>
           <li><a class="gmaps" id="resumelink" href="index.html">Resume</a></li>
           <li><a class="gmaps" id="likelink" href="likeplanes.html">Planes I Like</a></li>
           <li><a class="gmaps" id="dislikelink" href="dislikeplanes.html">Planes I Dislike</a></li>
-					<li><a class="gmaps" id="gmapslink" href="gmaps.html">Google Maps API</a></li>
+          <li><a class="gmaps" id="gmapslink" href="gmaps.html">Google Maps API</a></li>
         </ul>
         </nav>
       </header>
     </section>
-		<div>
+    <div>
       <div id="map"></div>
-	  	<h2 class="chicken">Chicken, Alaska</h2>
-			<div class="slider-container">
+      <h2 class="chicken">Chicken, Alaska</h2>
+      <div class="slider-container">
         <div class="slide active">
          <img src="images/chicken1.jpg">
         </div>
@@ -46,7 +46,7 @@
          <div class="dot"></div>
         </div>
       </div>
-			<script>
+      <script>
       $(document).ready(function () {
          let slideCount = $('.slide').length;
          let currentIndex = 0;
@@ -79,7 +79,7 @@
          showSlide(currentIndex);
       });
     </script>
-		<h2 class="chicken">Chicken</h2>
-		</div>
+    <h2 class="chicken">Chicken</h2>
+    </div>
   </body>
 </html>
